@@ -1,5 +1,7 @@
 puts "Sentence please!"
-sentence = gets.chomp
+sentence0 = gets.chomp
+sentence = sentence0.delete "!?.,'\""
 sensplit = sentence.upcase
 final = sensplit.split
-puts final.sort
+nopunc = final
+puts nopunc.sort
