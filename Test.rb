@@ -9,5 +9,5 @@ d = gets.chomp
 
 puts "The words in order:"
 
-puts [a,b,c,d].upcase
+puts [a,b,c,d].sort
 
