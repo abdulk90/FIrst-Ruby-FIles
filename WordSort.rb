@@ -1,4 +1,5 @@
 puts "Sentence please!"
 sentence = gets.chomp
-sensplit = sentence.split
-puts sensplit.sort
+sensplit = sentence.upcase
+final = sensplit.split
+puts final.sort
